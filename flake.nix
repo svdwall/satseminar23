@@ -1,5 +1,5 @@
 {
-  description = "Shell for abalone";
+  description = "SatSolvers from Seminar 2023";
 
   inputs = {
   };
