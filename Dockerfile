@@ -10,3 +10,7 @@ RUN nix \
     --extra-experimental-features "nix-command flakes" \
     --option filter-syscalls false \
     profile install .
+
+RUN mkdir benchmarks
+RUN tar -xvf bench/inductive-inference.tar.gz -C benchmarks
+RUN tar -xvf bench/php.tar.gz -C benchmarks
