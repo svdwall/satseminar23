@@ -52,6 +52,7 @@ for stud in data:
         res = data[stud][file]['res']
         if res == "EXCEPTION":
             exception += 1
+            points -= 1
             continue
         if res == "TIMEOUT":
             tos += 1
@@ -61,10 +62,10 @@ for stud in data:
             if res == "SAT":
                 points += 1
             else:
-                points += 3
+                points += 2
         else:
             false += 1
-            points -= 5
+            points -= 3
 
     results.append( [ stud, correct, false, tos, exception, points] )
 
