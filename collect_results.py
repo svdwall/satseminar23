@@ -59,16 +59,17 @@ for stud in data:
             continue
         if res == refdata[file]:
             correct += 1
-            if res == "SAT":
-                points += 1
-            else:
-                points += 2
+            points += 1
         else:
             false += 1
-            points -= 3
+            points -= 1
 
     results.append( [ stud, correct, false, tos, exception, points] )
 
-print("stud, correct, false, tos, exception, points")
-print(results)
+def print_table(results):
+    print("| Name | correctly_answered | incorrectly_answered | timeouts | exception | points |")
+    print("|-|-|-|-|-|-|")
+    for result in results:
+        print("| {} | {} | {} | {} | {} | {} |".format(result[0],result[1],result[2],result[3],result[4],result[5]))
 
+print_table(results)
