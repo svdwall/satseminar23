@@ -17,7 +17,6 @@ The full results are in [collected_results](./collected_results):
 I removed timing from the rating, because your solvers tend to either answer fast (< 1s) or not at all (timeout, 10min).
 * +1 for each correctly answered instance
 * -1 for each incorrectly answered instance
-* -1 for each instance that produces an exception 
 * 0 for each timeout
 
 ## Benchmark Set
