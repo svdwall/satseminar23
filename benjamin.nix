@@ -7,8 +7,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "bhennies";
     repo = "SAT_Solver";
-    rev = "5e2c8a1777e7670fcde7d067be362ad80eb53459";
-    sha256 = "qydwG9nlt3WZnI5uCbeJoFcyKGFCoZYiDq0VKVjmJwc=";
+    rev = "50fe96256d691e15875147a887a5821994cf279b";
+    sha256 = "sha256-M8MZuO14XFm5XT8mF+yvccYh4D+Z9utbSrHuhDYOVvk=";
   };
 
   buildInputs = [

@@ -11,6 +11,8 @@ stdenv.mkDerivation rec {
     sha256 = "gpLboX6wy9/RhX0KJcqDsXiWiSJpQ6X7/9KyFTN9L34=";
   };
 
+  patches = [ ./read_dimacs.patch ];
+
   buildInputs = [
     cmake
   ];

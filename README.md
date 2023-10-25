@@ -7,8 +7,8 @@ The full results are in [collected_results](./collected_results):
 | Name | correctly_answered | incorrectly_answered | timeouts | exception | points |
 |-|-|-|-|-|-|
 | natalia | 52 | 0 | 9 | 0 | 52 |
-| benjamin | 19 | 27 | 15 | 0 | -8 |
-| thies | 7 | 5 | 11 | 38 | -36 |
+| benjamin | 46 | 0 | 15 | 0 | 46 |
+| thies | 20 | 6 | 13 | 22 | 14 |
 
 * results per file are in [results.csv](./results.csv)
 * satisfiability references are in [references.csv](./references.csv)

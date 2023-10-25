@@ -1,0 +1,16 @@
+diff --git a/main.cpp b/main.cpp
+index e5bcf5e..4494a6e 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -22,10 +22,8 @@ vector<Clause> read_DIMACS(string path) {
+         }else if(str[0] == '%') {
+             return lits;
+         }else {
+-            if (str[0] == ' ') {
+                 //str = str.substr(1, str.length());
+-                ltrim(str);
+-            }
++            trim(str);
+             lits.push_back(Clause(str.substr(0, str.length()-2)));
+         }
+     }

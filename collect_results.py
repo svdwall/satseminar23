@@ -52,7 +52,6 @@ for stud in data:
         res = data[stud][file]['res']
         if res == "EXCEPTION":
             exception += 1
-            points -= 1
             continue
         if res == "TIMEOUT":
             tos += 1
