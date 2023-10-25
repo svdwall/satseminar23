@@ -34,7 +34,6 @@ I removed timing from the rating, because your solvers tend to either answer fas
 ### Running
 
 ```bash
-$ rm ./results.csv
 $ ./run.sh
 $ python3 collect_results.py
 ```
